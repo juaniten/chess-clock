@@ -1,4 +1,4 @@
-# Clock
+# Chess Clock
 
 A simple Phoenix LiveView chess clock.
 
