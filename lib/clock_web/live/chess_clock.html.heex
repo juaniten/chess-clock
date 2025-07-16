@@ -1,0 +1,10 @@
+<%= if @state do %>
+  <div>
+    <p>Current Player: {@state.current_player}</p>
+    <p>White: {@state.white} s</p>
+    <p>Black: {@state.black} s</p>
+    <p :if={@state.white == 0}>Black wins!</p>
+    <p :if={@state.black == 0}>White wins!</p>
+    <button :if={!time_out?(@state)} phx-click="switch">Switch</button>
+  </div>
+<% end %>
