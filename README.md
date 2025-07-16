@@ -7,12 +7,7 @@ To start your Phoenix server:
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+## Access multiple chess clocks
 
-## Learn more
+Independent clocks can be spawn by visiting [`localhost:4000/clock/<id>`](http://localhost:4000/clock/1) with any id, which will generate a LiveView for interacting with the clock. You can generate as many LiveViews as you want and they will keep in sync.
 
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
